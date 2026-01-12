@@ -1,0 +1,16 @@
+======================================================================
+DATA DISTRIBUTION AFTER GAN BALANCING
+======================================================================
+
+Total samples: 12,356
+
+Per-class breakdown:
+----------------------------------------------------------------------
+Left_Ventricular_Region       :  3,034 ( 24.6%)
+Outflow_Tract_Region          :  2,635 ( 21.3%)
+Right_Ventricular_Region      :  3,652 ( 29.6%)
+Septal_Region                 :  3,035 ( 24.6%)
+----------------------------------------------------------------------
+
+Imbalance ratio: 1.39:1
+Status: EXCELLENT BALANCE

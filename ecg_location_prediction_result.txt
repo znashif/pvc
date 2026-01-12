@@ -1,0 +1,33 @@
+Epoch 55: val_accuracy improved from 0.86492 to 0.86585, saving model to best_ecg_model.h5
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+
+Epoch 55: finished saving model to best_ecg_model.h5
+
+Epoch 55: ReduceLROnPlateau reducing learning rate to 6.25000029685907e-05.
+320/320 ━━━━━━━━━━━━━━━━━━━━ 33s 104ms/step - accuracy: 0.9798 - loss: 0.0561 - val_accuracy: 0.8659 - val_loss: 0.7428 - learning_rate: 1.2500e-04
+Epoch 55: early stopping
+Restoring model weights from the end of the best epoch: 40.        
+✓ Training history saved as 'training_history.png'
+
+================================================================================
+Model Evaluation
+================================================================================
+34/34 ━━━━━━━━━━━━━━━━━━━━ 3s 65ms/step  
+
+✓ Test Accuracy: 0.8180
+
+Classification Report:
+                          precision    recall  f1-score   support
+
+ Left_Ventricular_Region       0.88      0.83      0.85       239  
+    Outflow_Tract_Region       0.82      0.78      0.79        40  
+Right_Ventricular_Region       0.84      0.88      0.86       548          0.9789 - los287/320 ━━━━━━━━━━━━━━━━━━━━ 3s 100ms/step - accuracy: 0.9789 - los288/320 ━━━━━━━━━━━━━━━━━━━━ 3s 100ms/step - accuracy: 0.9789 - los289/320 ━━━━━━━━━━━━━━━━━━━━ 3s 100ms/step - accuracy: 0.9789 - los290/320 ━━━━━━━━━━━━━━━━━━━━ 2s 100ms/step - accuracy: 0.9789 - los291/320 ━━━━━━━━━━━━━━━━━━━━ 2s 100ms/step - accuracy: 0.9789 - los292/320 ━━━━━━━━━━━━━━━━━━━━ 2s 100ms/step - accuracy: 0.9789 - los293/320 ━━━━━━━━━━━━━━━━━━━━ 2s 100ms/step - accuracy: 0.9789 - los294/320 ━━━━━━━━━━━━━━━━━━━━ 2s 100ms/step - accuracy: 0.9789 - los295/320 ━━━━━━━━━━━━━━━━━━━━ 2s 100ms/step - accuracy: 0.9789 - los296/320 ━━━━━━━━━━━━━━━━━━━━ 2s 100ms/step - accuracy: 0.9789 - los297/320 ━━━━━━━━━━━━━━━━━━━━ 2s 100ms/step - accuracy: 0.9789 - los298/320 ━━━━━━━━━━━━━━━━━━━━ 2s 100ms/step - accuracy: 0.9789 - los299/320 ━━━━━━━━━━━━━━━━━━━━ 2s 100ms/step - accuracy: 0.9789 - los300/320 ━━━━━━━━━━━━━━━━━━━━ 1s 100ms/step - accuracy: 0.9789 - los301/320 ━━━━━━━━━━━━━━━━━━━━ 1s 100ms/step - accuracy: 0.9789 - los302/320 ━━━━━━━━━━━━━━━━━━━━ 1s 100━━━━━━━━━━━━━ 6s 100ms/step - accuracy: 0.9807 - los252/320 ━━━━━━━━━.npy sudah tersimpan      
+📁 Ketiga model (CNN-BiLSTM, CNN-DNN, CNN-RNN) dapat menggunakan data yang sudah di-balance dengan GAN  
+(base) PS D:\GAN>
+
+
+
+
+
+
+

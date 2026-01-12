@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (too large for GitHub)
+*.npy
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+
+# Large datasets
+PVCVTECGData/
+*.xlsx
+*.xls
+*.csv
+
+# Model checkpoints
+best_model*.h5
+*.weights.h5
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Temporary files
+*.tmp
+*.bak
+*_OLD.py
+*_old.py
+backup/
+
+# Output folders
+bilstm default/
+dnn default/
+rnn default/
